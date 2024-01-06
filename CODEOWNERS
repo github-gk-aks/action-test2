@@ -1,25 +1,25 @@
 # Sample CODEOWNERS File
 
 # Default CODEOWNERS
-*       @repo-admins
+*       @repo-githubadmins
 
 # Top-level directory
-/docs/  @documentation-team
-/tests/ @testing-team
+/docs/  @documentation-githubteam
+/tests/ @testing-githubteam
 
 # Backend code
-/backend/               @backend-team @frontend-team @code-review-team
+/backend/               @backend-githubteam @frontend-githubteam @code-review-githubteam
 
 # Frontend code
-/frontend/               @frontend-team
-/frontend1/              @backend-team
-/frontend2/              @frontend-team
-/frontend3/              @frontend-team
-/frontend4/              @frontend-team
+/frontend/               @frontend-githubteam
+/frontend1/              @backend-githubteam
+/frontend2/              @frontend-githubteam
+/frontend3/              @frontend-githubteam
+/frontend4/              @frontend-githubteam
 
 # Configuration files
-/config/                @devops-team
+/config/                @devops-githubteam
 
 # Scripts
-/scripts/               @automation-team
+/scripts/               @automation-githubteam
 
